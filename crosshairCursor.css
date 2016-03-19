@@ -1,0 +1,21 @@
+
+.crosshairCursor-line {
+  background: red;
+  position: absolute;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.crosshairCursor-line-temp {
+  opacity: 1;
+}
+
+.crosshairCursor-hLine {
+  height: 2px;
+  width: 100%;
+}
+
+.crosshairCursor-vLine {
+  height: 100%;
+  width: 2px;
+}

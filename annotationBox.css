@@ -1,0 +1,19 @@
+
+.annotation-box {
+  position: absolute;
+  border: 1px solid;
+  cursor: move;
+}
+
+.annotation-box:nth-child(1n) {
+  border-color: yellow;
+  background: rgba(255, 255, 0, 0.2);
+}
+.annotation-box:nth-child(2n) {
+  border-color: blue;
+  background: rgba(0, 0, 255, 0.2);
+}
+.annotation-box:nth-child(3n) {
+  border-color: green;
+  background: rgba(0, 255, 0, 0.2);
+}
